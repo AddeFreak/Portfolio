@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
 	const meta = {
 		title: 'Andreas Frick Toresand - Developer',
 		description: `Get in touch with me to know more.`,
-		image: '/avatar.png',
+		image: '/pic.png',
 		type: 'website',
 		...customMeta,
 	};
