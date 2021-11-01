@@ -5,6 +5,7 @@ import Repositories from '../components/Repositores';
 import getLatestRepos from '../lib/getLatestRepos';
 import ContainerBlock from '../components/ContainerBlock';
 import userData from '../constants/data';
+import Projects from '../components/Projects';
 
 export default function Home({ repositories }) {
 	return (
@@ -12,7 +13,8 @@ export default function Home({ repositories }) {
 			title='Andreas Frick Toresand - Developer'
 			description='This is my Portfolio built with next.js and tailwind.'>
 			<Hero />
-			<Repositories repositories={repositories} />
+			{/* 	<Repositories repositories={repositories} /> */}
+			<Projects />
 		</ContainerBlock>
 	);
 }

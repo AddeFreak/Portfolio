@@ -34,9 +34,13 @@ export default function Hero() {
 				</RoughNotationGroup>
 			</div>
 			{/* Image container */}
-			<div className='hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20 '>
-				<div className='w-3/4 '>
-					<img src={userData.avatarUrl} alt='profilepic' className=' shadow' />
+			<div className='hidden lg:block relative rounded-full object-scale-down  -mr-40 mt-20 '>
+				<div className='rounded-full w-3/4  '>
+					<img
+						src={userData.avatarUrl}
+						alt='profilepic'
+						className='object-cover rounded-full shadow'
+					/>
 				</div>
 			</div>
 		</div>
